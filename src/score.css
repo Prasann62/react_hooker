@@ -1,0 +1,141 @@
+/* Theming */
+.light-theme {
+  background: #f5f5f7;
+  min-height: 100vh;
+  color: #111;
+}
+
+.dark-theme {
+  background: #111;
+  min-height: 100vh;
+  color: #f5f5f5;
+}
+
+/* Title */
+.app-title {
+  font-size: 32px;
+  font-weight: 800;
+}
+
+/* Premium Card */
+.premium-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 22px;
+  box-shadow: 0px 8px 18px rgba(0,0,0,0.08);
+}
+
+.dark-theme .premium-card {
+  background: #1c1c1e;
+  box-shadow: 0px 8px 18px rgba(255,255,255,0.05);
+}
+
+/* Score */
+.score-text {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.overs-text {
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.need-text {
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #d48d28;
+}
+
+/* Buttons */
+.premium-btn {
+  background: #e5e5e7;
+  color: #111;
+  font-weight: 700;
+  border-radius: 14px;
+  padding: 10px 18px;
+  border: none;
+}
+
+.premium-btn:hover {
+  background: #d4d4d6;
+}
+
+.premium-btn-yellow {
+  background: #ffe8a3;
+  border-radius: 14px;
+  padding: 10px 18px;
+  font-weight: 700;
+}
+
+.premium-btn-red {
+  background: #ffb3b3;
+  border-radius: 14px;
+  padding: 10px 18px;
+  font-weight: 700;
+}
+
+.premium-btn-grey {
+  background: #d1d1d6;
+  border-radius: 14px;
+  padding: 10px 20px;
+}
+
+.premium-btn-green {
+  background: #b5f8c9;
+  border-radius: 14px;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+/* Input */
+.input-premium {
+  border-radius: 12px;
+  padding: 10px;
+  background: #fafafa;
+}
+
+/* Over Card */
+.over-premium {
+  background: white;
+  border-radius: 14px;
+  padding: 12px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.08);
+}
+
+.dark-theme .over-premium {
+  background: #1e1e20;
+}
+
+/* Ball Tags */
+.ball-tag {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 50%;
+  font-weight: 700;
+  margin-right: 6px;
+}
+
+.ball6 { background: #b3d4ff; }
+.ball4 { background: #b5f8c9; }
+.ballW { background: #ffb3b3; }
+.ballN { background: #e5e5e7; }
+
+/* Winner */
+.win-circle {
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  background: #b5f8c9;
+  border-radius: 50%;
+  animation: winAnim 0.7s ease;
+}
+
+@keyframes winAnim {
+  from { transform: scale(0.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
